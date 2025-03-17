@@ -69,7 +69,7 @@
 &kp TILDE  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17    &mmv MOVE_UP     &kp F18  &kp F19  &kp F20  &kp F21  &kp F22    &trans
 &trans     &trans   &trans   &trans   &trans   &trans     &mmv MOVE_DOWN   &trans   &trans   &trans   &trans   &kp UNDER  &kp PLUS
 &trans     &trans   &trans   &trans   &trans   &trans     &mmv MOVE_LEFT   &trans   &trans   &trans   &trans   &kp LBRC   &kp RBRC
-&trans     &trans   &trans   &trnas   &trans   &trans     &mmv MOVE_RIGHT  &trans   &trans   &trnas   &trans   &trans     &trans
+&trans     &trans   &trans   &trans   &trans   &trans     &mmv MOVE_RIGHT  &trans   &trans   &trans   &trans   &trans     &trans
 &trans     &trans   &trans   &trans   &mo 1    &to 0      &mkp LCLK        &to 1    &trans   &trans   &trans   &trans
             >;
 
