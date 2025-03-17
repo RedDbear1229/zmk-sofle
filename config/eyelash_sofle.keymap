@@ -66,11 +66,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17    &mmv MOVE_UP     &kp F18         &kp F19         &kp F20       &kp F21    &kp F22    &trans
-&trans     &trans   &trans   &trans   &trans   &trans     &mmv MOVE_DOWN   &mkp LCLK       &mkp RCLK       &mkp MCLK     &trans     &kp UNDER  &kp PLUS
-&trans     &trans   &trans   &trans   &trans   &trans     &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp LBRC   &kp RBRC
-&trans     &trans   &trans   &trans   &trans   &trans     &mmv MOVE_RIGHT  &trans          &trans          &trans        &trans     &trans     &trans
-&trans     &trans   &trans   &trans   &mo 1    &to 0      &mkp LCLK        &to 1           &trans          &trans        &trans     &trans
+&kp TILDE  &kp F13     &kp F14    &kp F15     &kp F16      &kp F17    &mmv MOVE_UP     &kp F18         &kp F19         &kp F20       &kp F21    &kp F22    &trans
+&trans     &trans      &trans     &trans      &kp K_REDO   &trans     &mmv MOVE_DOWN   &mkp LCLK       &mkp RCLK       &mkp MCLK     &trans     &kp UNDER  &kp PLUS
+&trans     &trans      &trans     &trans      &trans       &trans     &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp LBRC   &kp RBRC
+&trans     &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &trans     &mmv MOVE_RIGHT  &trans          &trans          &trans        &trans     &trans     &trans
+&trans     &trans      &trans     &trans      &mo 1        &to 0      &mkp LCLK        &to 1           &trans          &trans        &trans     &trans
             >;
 
             display-name = "LAYER_2";
