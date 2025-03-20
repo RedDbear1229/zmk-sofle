@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - '&td_shift'
   - Z
   - X
   - C
@@ -54,13 +54,13 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - '&td_ctrl'
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - '&td_alt'
   - LAYER_1
   - {t: LAYER_1, h: toggle}
   - $$mdi:mouse-left-click-outline$$
-  - {t: LAYER_2, h: toggle}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER_2}
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
   - LANG1
@@ -125,7 +125,7 @@ layers:
   - {t: LAYER_0, type: held}
   - {t: LAYER_2, h: toggle}
   - $$mdi:mouse-left-click-outline$$
-  - {t: LAYER_0, h: toggle}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER_0}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,7 +190,7 @@ layers:
   - LAYER_0
   - {t: LAYER_0, h: toggle}
   - $$mdi:mouse-left-click-outline$$
-  - {t: LAYER_1, h: toggle}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER_1, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
