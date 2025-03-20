@@ -32,6 +32,13 @@
         tap-ms = <100>;
     };
 
+    td_ctrl: td_ctrl {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TD_CTRL";
+        #binding-cells = <0>;
+        bindings = <&kp LEFT_CONTROL>, <&sk LEFT_CONTROL>, <&kt LEFT_CONTROL>;
+    };
+
     behaviors {
     };
 
