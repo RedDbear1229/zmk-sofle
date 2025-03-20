@@ -60,7 +60,7 @@ layers:
   - LAYER_1
   - {t: LAYER_1, h: toggle}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-space$$', h: LAYER_2}
+  - '&td_lower0'
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
   - LANG1
@@ -122,10 +122,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: LAYER_0, type: held}
+  - {t: '&td_fn', type: held}
   - {t: LAYER_2, h: toggle}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-space$$', h: LAYER_0}
+  - '&td_lower1'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -187,10 +187,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - LAYER_0
+  - '&td_fn'
   - {t: LAYER_0, h: toggle}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-space$$', h: LAYER_1, type: held}
+  - '&td_lower2'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
