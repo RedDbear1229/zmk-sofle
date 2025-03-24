@@ -119,7 +119,7 @@
 &trans      &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans    &mmv MOVE_DOWN   &kp HOME    &kp PG_DN  &kp PG_UP  &kp END    &kp MINUS         &kp EQUAL
 &trans      &trans  &trans     &trans     &trans     &trans    &mmv MOVE_LEFT   &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &trans  &trans     &trans     &trans     &trans    &mmv MOVE_RIGHT  &trans      &trans     &trans     &trans     &trans            &trans
-&kp C_MUTE  &trans  &trans     &trans     &td_fn     &tog 2    &mkp LCLK        &td_lower1  &trans     &trans     &trans     &trans
+&kp C_MUTE  &trans  &trans     &trans     &mo 0      &tog 2    &mkp LCLK        &td_lower1  &trans     &trans     &trans     &trans
             >;
 
             display-name = "LAYER_1";
@@ -132,7 +132,7 @@
 &trans     &trans     &mkp LCLK  &mkp MCLK  &mkp RCLK  &msc SCRL_UP      &mmv MOVE_DOWN   &trans          &trans          &trans        &trans     &kp UNDER  &kp PLUS
 &trans     &trans     &trans     &trans     &trans     &msc SCRL_DOWN    &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp LBRC   &kp RBRC
 &trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans            &mmv MOVE_RIGHT  &trans          &trans          &trans        &trans     &trans     &trans
-&trans     &trans     &trans     &trans     &td_fn     &tog 0            &mkp LCLK        &td_lower2      &trans          &trans        &trans     &trans
+&trans     &trans     &trans     &trans     &td_fn     &to 0             &mkp LCLK        &td_lower2      &trans          &trans        &trans     &trans
             >;
 
             display-name = "LAYER_2";
