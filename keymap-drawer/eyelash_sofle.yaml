@@ -122,7 +122,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: LAYER_0, type: held}
+  - {t: '&td_fn', type: held}
   - {t: LAYER_2, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - '&td_lower1'
