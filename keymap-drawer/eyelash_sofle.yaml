@@ -57,8 +57,8 @@ layers:
   - '&td_ctrl'
   - $$mdi:apple-keyboard-command$$
   - '&td_alt'
-  - LAYER_1
-  - {t: LAYER_1, h: toggle}
+  - '&td_fn'
+  - '&td_upper0'
   - $$mdi:mouse-left-click-outline$$
   - '&td_lower0'
   - $$mdi:keyboard-space$$
@@ -122,8 +122,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&td_fn', type: held}
-  - {t: LAYER_2, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&td_upper1'
   - $$mdi:mouse-left-click-outline$$
   - '&td_lower1'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -187,8 +187,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&td_fn'
-  - {t: LAYER_0, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&td_upper2'
   - $$mdi:mouse-left-click-outline$$
   - '&td_lower2'
   - {t: '$$mdi:transfer$$', type: trans}
