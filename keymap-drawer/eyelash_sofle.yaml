@@ -63,7 +63,7 @@ layers:
   - '&td_lower0'
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
-  - LANG1
+  - '&td_hangul'
   - LANG2
   LAYER_1:
   - {t: '`', s: '~'}
