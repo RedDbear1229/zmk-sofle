@@ -80,7 +80,7 @@
         label = "TD_UPPER2";
         #binding-cells = <0>;
         tapping-term-ms = <300>;
-        bindings = <&kp ESCAPE>, <&to 0>, <&to 0>;
+        bindings = <&to 0>, <&to 0>, <&kp ESCAPE>;
     };
 
     td_lower0: td_lower0 {
@@ -96,7 +96,7 @@
         label = "TD_LOWER1";
         #binding-cells = <0>;
         tapping-term-ms = <300>;
-        bindings = <&kp ESCAPE>, <&to 0>, <&to 0>;
+        bindings = <&to 0>, <&to 0>, <&kp ESCAPE>;
     };
 
     td_lower2: td_lower2 {
@@ -104,7 +104,7 @@
         label = "TD_LOWER2";
         #binding-cells = <0>;
         tapping-term-ms = <300>;
-        bindings = <&kp ESCAPE>, <&to 1>, <&to 0>;
+        bindings = <&to 0>, <&to 1>, <&kp ESCAPE>;
     };
 
     td_fn: td_fn {
@@ -121,6 +121,14 @@
         #binding-cells = <0>;
         tapping-term-ms = <300>;
         bindings = <&kp LANGUAGE_1>, <&mn_hanspace>;
+    };
+
+    new_behavior: new_behavior {
+        compatible = "zmk,behavior-tap-dance";
+        label = "NEW_BEHAVIOR";
+        #binding-cells = <0>;
+        tapping-term-ms = <300>;
+        bindings = <&to 0>, <&to 2>, <&kp ESCAPE>;
     };
 
     behaviors {
