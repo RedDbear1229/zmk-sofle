@@ -128,6 +128,8 @@
         label = "TD_HANJA";
         #binding-cells = <0>;
         bindings = <&kp LANGUAGE_2>, <&kp LA(M)>;
+
+        tapping-term-ms = <300>;
     };
 
     behaviors {
