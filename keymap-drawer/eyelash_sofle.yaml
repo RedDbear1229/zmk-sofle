@@ -134,7 +134,7 @@ layers:
   - '~'
   - F13
   - F14
-  - F15
+  - '&nm_ppp'
   - F16
   - F17
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
