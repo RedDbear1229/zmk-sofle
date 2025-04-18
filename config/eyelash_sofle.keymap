@@ -149,6 +149,13 @@
             bindings = <&kp LANGUAGE_1 &kp SPACE>;
             label = "MN_HANSPACE";
         };
+
+        nm_ppp: nm_ppp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N1 &kp G &kp P &kp F &kp V &kp M &kp E &kp P &kp T &kp M &kp Z &kp M &kp EXCL>;
+            label = "NM_PPP";
+        };
     };
 
     keymap {
@@ -182,7 +189,7 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &kp F13    &kp F14    &kp F15    &kp F16    &kp F17           &mmv MOVE_UP     &kp F18         &kp F19         &kp F20       &kp F21    &kp F22    &trans
+&kp TILDE  &kp F13    &kp F14    &nm_ppp    &kp F16    &kp F17           &mmv MOVE_UP     &kp F18         &kp F19         &kp F20       &kp F21    &kp F22    &trans
 &trans     &trans     &mkp LCLK  &mkp MCLK  &mkp RCLK  &msc SCRL_UP      &mmv MOVE_DOWN   &trans          &trans          &trans        &trans     &kp UNDER  &kp PLUS
 &trans     &trans     &trans     &trans     &trans     &msc SCRL_DOWN    &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp LBRC   &kp RBRC
 &trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans            &mmv MOVE_RIGHT  &trans          &trans          &trans        &trans     &trans     &trans
