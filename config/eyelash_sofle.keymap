@@ -176,11 +176,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1  &kp F2     &kp F3     &kp F4     &kp F5        &mmv MOVE_UP     &kp F6      &kp F7     &kp F8     &kp F9     &kp F10           &trans
-&trans      &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans        &mmv MOVE_DOWN   &kp HOME    &kp PG_DN  &kp PG_UP  &kp END    &kp MINUS         &kp EQUAL
-&trans      &trans  &trans     &trans     &trans     &trans        &mmv MOVE_LEFT   &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &trans  &trans     &trans     &trans     &trans        &mmv MOVE_RIGHT  &trans      &trans     &trans     &trans     &trans            &trans
-&kp C_MUTE  &trans  &trans     &trans     &trans     &td_upper1    &mkp LCLK        &td_lower1  &trans     &trans     &trans     &trans
+&kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5        &mmv MOVE_UP     &kp F6      &kp F7     &kp F8     &kp F9     &kp F10           &trans
+&trans     &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans        &mmv MOVE_DOWN   &kp HOME    &kp PG_DN  &kp PG_UP  &kp END    &kp MINUS         &kp EQUAL
+&trans     &trans  &trans     &trans     &trans     &trans        &mmv MOVE_LEFT   &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &trans  &trans     &trans     &trans     &trans        &mmv MOVE_RIGHT  &trans      &trans     &trans     &trans     &trans            &trans
+&trans     &trans  &trans     &trans     &trans     &td_upper1    &mkp LCLK        &td_lower1  &trans     &trans     &trans     &trans
             >;
 
             display-name = "LAYER_1";
@@ -190,7 +190,7 @@
         layer_2 {
             bindings = <
 &kp TILDE  &kp F13    &kp F14    &nm_ppp    &kp F16    &kp F17           &mmv MOVE_UP     &kp F18         &kp F19         &kp F20       &kp F21    &kp F22    &trans
-&trans     &trans     &mkp LCLK  &mkp MCLK  &mkp RCLK  &msc SCRL_UP      &mmv MOVE_DOWN   &trans          &trans          &trans        &trans     &kp UNDER  &kp PLUS
+&trans     &trans     &mkp LCLK  &mkp MCLK  &mkp RCLK  &msc SCRL_UP      &mmv MOVE_DOWN   &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &kp UNDER  &kp PLUS
 &trans     &trans     &trans     &trans     &trans     &msc SCRL_DOWN    &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp LBRC   &kp RBRC
 &trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans            &mmv MOVE_RIGHT  &trans          &trans          &trans        &trans     &trans     &trans
 &trans     &trans     &trans     &trans     &trans     &td_upper2        &mkp LCLK        &td_lower2      &trans          &trans        &trans     &trans
